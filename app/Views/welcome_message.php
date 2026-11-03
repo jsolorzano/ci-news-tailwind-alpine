@@ -1,3 +1,4 @@
+<?php helper('vite'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,9 @@
     <meta name="description" content="The small framework with powerful features">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/favicon.ico">
+
+    <!-- Inyección de assets de Vite -->
+    <?php echo vite_assets(); ?>
 
     <!-- STYLES -->
 
@@ -237,7 +241,21 @@
 
 <section>
 
-    <h1>About this page</h1>
+    <div>
+        <div class="bg-sky-50">dsgfdsgdfs</div>
+        <div class="bg-sky-100">dsgfdsgdfs</div>
+        <div class="bg-sky-200">dsgfdsgdfs</div>
+        <div class="bg-sky-300">dsgfdsgdfs</div>
+        <div class="bg-sky-400">dsgfdsgdfs</div>
+        <div class="bg-sky-500">dsgfdsgdfs</div>
+        <div class="bg-sky-600">dsgfdsgdfs</div>
+        <div class="bg-sky-700">dsgfdsgdfs</div>
+        <div class="bg-sky-800">dsgfdsgdfs</div>
+        <div class="bg-sky-900">dsgfdsgdfs</div>
+        <div class="bg-sky-950">dsgfdsgdfs</div>
+    </div>
+
+    <h1>About this page (test)</h1>
 
     <p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 

@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+/* Aquí le decimos a Tailwind v4 dónde buscar las clases de tus vistas */
+@source "../app/Views/**/*.php";
+@source "../public/**/*.php";
